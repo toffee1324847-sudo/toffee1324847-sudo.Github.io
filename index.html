@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>PS1 Emulator</title>
+  <style>
+    body {
+      background: #111;
+      color: white;
+      font-family: sans-serif;
+      text-align: center;
+    }
+    #game {
+      width: 800px;
+      height: 600px;
+      margin: auto;
+    }
+  </style>
+  <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
+</head>
+<body>
+
+<h1>PS1 Emulator</h1>
+<p>Upload your own legally owned PS1 game & BIOS</p>
+
+<div id="game"></div>
+
+<script>
+  EJS_player = "#game";
+  EJS_core = "psx";
+  EJS_pathtodata = "https://cdn.emulatorjs.org/stable/data/";
+</script>
+
+</body>
+</html>
